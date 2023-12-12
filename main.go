@@ -23,7 +23,5 @@ func main() {
 		port = "3000"
 	}
 
-	log.Fatal(aperror {
-		return c.SendString("Hello, ENV!" + os.Getenv("TEST_ENV"))
-	})p.Listen("0.0.0.0:" + port))
+	log.Fatal(app.Listen("0.0.0.0:" + port))
 }
